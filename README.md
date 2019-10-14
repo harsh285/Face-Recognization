@@ -7,7 +7,10 @@ These instructions will get you a copy of the project up and running on your loc
 
   ## Download From Google Drive
     
-         Download pre-trained Keras FaceNet model and Data For Face Recognition From link.
-          *.[Link].(https://github.com/robofab-developers/robofab)
+         Download pre-trained Keras FaceNet model and Data For Face Recognition From [link]
+         (https://drive.google.com/open?id=1ht3M3g3ndYLKIbFcxFXe7AGTlwve33k9).
+  
+  ##Installing
+         
          
     
