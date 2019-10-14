@@ -5,15 +5,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 # Prerequisites
 
-  ## Download From Google Drive
+  ### Download From Google Drive
   
-  [Lets go to Quora](https://www.quora.com)
-  
-   * [link](https://drive.google.com/open?id=1ht3M3g3ndYLKIbFcxFXe7AGTlwve33k9)
-    
-         Download pre-trained Keras FaceNet model and Data For Face Recognition From
+         Download pre-trained Keras FaceNet model and Data For Face Recognition From Following Link.
          
-         [Lets go to Quora](https://www.quora.com)
+          * [link](https://drive.google.com/open?id=1ht3M3g3ndYLKIbFcxFXe7AGTlwve33k9)
+  
+# Description  
   
  ### `Pre_Process.py`
  
