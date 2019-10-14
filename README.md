@@ -65,7 +65,7 @@ In This Assignment,
                   The model is a deep convolutional neural network trained via a triplet loss function that encourages vectors for the same identity to become more similar (smaller distance), whereas vectors for different identities are expected to become less similar (larger distance). The focus on training a model to create embeddings directly (rather than extracting them from an intermediate layer of a model) was an important innovation in this work.
 
 ####  `Contact`
-harsh.hp498@gmail.com
+harshpatel.hp498@gmail.com
 
 
 
