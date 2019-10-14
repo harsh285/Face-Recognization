@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 
   ### Download From Google Drive
   
-   Download pre-trained Keras FaceNet model and Data For Face Recognition From Following Link.
+   Download pre-trained Keras FaceNet model and Kaggle's Dataset For Face Recognition.
          
    * [Facenet Model And Data](https://drive.google.com/open?id=1ht3M3g3ndYLKIbFcxFXe7AGTlwve33k9)
   
