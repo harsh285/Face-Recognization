@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
  
  Running the example may take a moment.
 
-First, all of the photos in the ‘train‘ dataset are loaded, then faces are extracted, resulting in 93 samples with square face input and a class label string as output. Then the ‘val‘ dataset is loaded, providing 25 samples that can be used as a test dataset.
+First, all of the photos in the ‘train‘ dataset are loaded, then faces are extracted, resulting in 108 samples with square face input and a class label string as output. Then the ‘val‘ dataset is loaded, providing 30 samples that can be used as a test dataset.
 
 Both datasets are then saved to a compressed NumPy array file called ‘5-celebrity-faces-dataset.npz‘ that is about three megabytes and is stored in the current working directory.
 
@@ -34,7 +34,7 @@ We can, therefore, pre-compute the face embeddings for all faces in the train an
  
 Running the example reports progress along the way.
 
-We can see that the face dataset was loaded correctly and so was the model. The train dataset was then transformed into 93 face embeddings, each comprised of a 128 element vector. The 25 examples in the test dataset were also suitably converted to face embeddings.
+We can see that the face dataset was loaded correctly and so was the model. The train dataset was then transformed into 108 face embeddings, each comprised of a 128 element vector. The 30 examples in the test dataset were also suitably converted to face embeddings.
 
 The resulting datasets were then saved to a compressed NumPy array that is about 50 kilobytes with the name ‘5-celebrity-faces-embeddings.npz‘ in the current working directory.
  
@@ -58,7 +58,15 @@ A different random example from the test dataset will be selected each time the 
 
 The model is a deep convolutional neural network trained via a triplet loss function that encourages vectors for the same identity to become more similar (smaller distance), whereas vectors for different identities are expected to become less similar (larger distance). The focus on training a model to create embeddings directly (rather than extracting them from an intermediate layer of a model) was an important innovation in this work.
 
-![Optional Text](../master/myFolder/image.png)
+Triplet loss is a loss function for artificial neural networks where a baseline (anchor) input is compared to a positive (truthy) input and a negative (falsy) input. The distance from the baseline (anchor) input to the positive (truthy) input is minimized, and the distance from the baseline (anchor) input to the negative (falsy) input is maximized.
+
+It is often used for learning similarity for the purpose of learning embeddings, like word embeddings and even thought vectors, and metric learning.
+
+The loss function can be described using a Euclidean distance function.
+
+
+
+
          
          
     
