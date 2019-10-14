@@ -55,13 +55,16 @@ A different random example from the test dataset will be selected each time the 
 
 ##  `Triplet loss`
 
-The model is a deep convolutional neural network trained via a triplet loss function that encourages vectors for the same identity to become more similar (smaller distance), whereas vectors for different identities are expected to become less similar (larger distance). The focus on training a model to create embeddings directly (rather than extracting them from an intermediate layer of a model) was an important innovation in this work.
-
 Triplet loss is a loss function for artificial neural networks where a baseline (anchor) input is compared to a positive (truthy) input and a negative (falsy) input. The distance from the baseline (anchor) input to the positive (truthy) input is minimized, and the distance from the baseline (anchor) input to the negative (falsy) input is maximized.
 
 It is often used for learning similarity for the purpose of learning embeddings, like word embeddings and even thought vectors, and metric learning.
 
 The loss function can be described using a Euclidean distance function.
+
+In This Assignment,
+                  The model is a deep convolutional neural network trained via a triplet loss function that encourages vectors for the same identity to become more similar (smaller distance), whereas vectors for different identities are expected to become less similar (larger distance). The focus on training a model to create embeddings directly (rather than extracting them from an intermediate layer of a model) was an important innovation in this work.
+
+
 
 
 
