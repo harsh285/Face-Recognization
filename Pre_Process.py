@@ -1,4 +1,4 @@
-# face detection for the 5 Celebrity Faces Dataset
+# face detection for the Faces Dataset
 from os import listdir
 from os.path import isdir
 from PIL import Image
@@ -71,4 +71,4 @@ print(trainX.shape, trainy.shape)
 # load test dataset
 testX, testy = load_dataset('5-celebrity-faces-dataset/val/')
 # save arrays to one file in compressed format
-savez_compressed('5-celebrity-faces-dataset.npz', trainX, trainy, testX, testy)
+savez_compressed('faces-dataset.npz', trainX, trainy, testX, testy)
