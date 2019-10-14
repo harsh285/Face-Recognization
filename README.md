@@ -18,7 +18,7 @@ to develop a face detection system using FaceNet and an SVM classifier to identi
 
 First, all of the photos in the ‘train‘ dataset are loaded, then faces are extracted, resulting in 108 samples with square face input and a class label string as output. Then the ‘val‘ dataset is loaded, providing 30 samples that can be used as a test dataset.
 
-Both datasets are then saved to a compressed NumPy array file called ‘faces-dataset.npz‘ that is about three megabytes and is stored in the current working directory.
+Both datasets are then saved to a compressed NumPy array file called ‘faces-dataset.npz‘ that is about four megabytes and is stored in the current working directory.
 
 This dataset is ready to be provided to a face detection model.
  
@@ -35,7 +35,7 @@ Running the example reports progress along the way.
 
 We can see that the face dataset was loaded correctly and so was the model. The train dataset was then transformed into 108 face embeddings, each comprised of a 128 element vector. The 30 examples in the test dataset were also suitably converted to face embeddings.
 
-The resulting datasets were then saved to a compressed NumPy array that is about 50 kilobytes with the name ‘faces-embeddings.npz‘ in the current working directory.
+The resulting datasets were then saved to a compressed NumPy array that is about 65 kilobytes with the name ‘faces-embeddings.npz‘ in the current working directory.
  
  ### `Classification.py`
  
