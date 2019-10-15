@@ -85,7 +85,9 @@ In This Assignment,
 ### `Step 1:Opening A Command Prompt`
    Open cmd at following Path : C:\Users\harsh\AppData\Local\Programs\Python\Python37\Scripts
    
-   than Run Command
+####  `Install Numpy and matplotlib Library by following command.`
+        pip install numpy
+        pip install matplotlib
    
 
 ####  `Contact`
