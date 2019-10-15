@@ -91,12 +91,26 @@ In This Assignment,
         pip install matplotlib
         pip install mtcnn
         pip install Pillow
+        pip install random
  
 ####  `Install Tensorflow`
       pip install tensorflow
 ####  `Install Keras and Scikit-learn`
       pip install keras
       pip install scikit-learn
+
+## `Excute Program .py File`
+    
+####  `Open Pre_Process.py`
+     Run This File first it will take Few minits.it will generate "faces-dataset.npz" file
+####  `Open embedding.py`
+     second Run This File and it will genarate "faces-embeddings.npz".
+####  `Open Classification.py` 
+     Last Run This File It will Give You predictive output from taking random images from Test Set.
+
+
+
+
 
 ####  `Contact`
 harshpatel.hp498@gmail.com
