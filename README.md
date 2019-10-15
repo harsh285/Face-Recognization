@@ -113,7 +113,7 @@ In This Assignment,
 
 
 ###  `From Developer:`
-If you're stuck ping us!
+If you're stuck ping me!
 
 ####  `Contact`
 harshpatel.hp498@gmail.com
