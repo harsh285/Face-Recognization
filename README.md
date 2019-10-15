@@ -63,6 +63,30 @@ The loss function can be described using a Euclidean distance function.
 
 In This Assignment,
                   The model is a deep convolutional neural network trained via a triplet loss function that encourages vectors for the same identity to become more similar (smaller distance), whereas vectors for different identities are expected to become less similar (larger distance). The focus on training a model to create embeddings directly (rather than extracting them from an intermediate layer of a model) was an important innovation in this work.
+  
+  
+#  `Python Installation and Execute Program`  
+  
+##  `Python Installation`
+
+### `Step 1: Download The Installer of Python`
+
+    First, open your Web browser and go to https://www.python.org/downloads/release/python-380/
+    If you have a recent Windows computer, very likely it is a 64-bit machine.than,Go to Files Sections and Click on "Windows x86-64         executable installer".
+    
+### `Step 2: Install Python`
+
+   Double-click on the file you just downloaded to start the installation wizard.
+   By default, the Add Python 3.8 to PATH option is disabled, but you should select it, as it makes running Python programs much much      easier.
+   Than Installing Python Installer Like Other Installer.
+   
+## `Install Dependencies For Assignment`
+
+### `Step 1:Opening A Command Prompt`
+   Open cmd at following Path : C:\Users\harsh\AppData\Local\Programs\Python\Python37\Scripts
+   
+   than Run Command
+   
 
 ####  `Contact`
 harshpatel.hp498@gmail.com
