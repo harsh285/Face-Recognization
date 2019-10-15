@@ -6,7 +6,7 @@ to develop a face detection system using FaceNet and an SVM classifier to identi
 
   ### Download From Google Drive
   
-   Download pre-trained Keras FaceNet model and Kaggle's Dataset For Face Recognition.
+   Download pre-trained Keras FaceNet model and Kaggle's Dataset For Face Recognition.and Put this .h5 model and Dataset in Directory where your .py files are.
          
    * [Facenet Model And Data](https://drive.google.com/open?id=1ht3M3g3ndYLKIbFcxFXe7AGTlwve33k9)
   
