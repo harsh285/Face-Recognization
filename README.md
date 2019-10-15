@@ -85,10 +85,18 @@ In This Assignment,
 ### `Step 1:Opening A Command Prompt`
    Open cmd at following Path : C:\Users\harsh\AppData\Local\Programs\Python\Python37\Scripts
    
-####  `Install Numpy and matplotlib Library by following command.`
+####  `Install basic Library by following command.`
+
         pip install numpy
         pip install matplotlib
-   
+        pip install mtcnn
+        pip install Pillow
+ 
+####  `Install Tensorflow`
+      pip install tensorflow
+####  `Install Keras and Scikit-learn`
+      pip install keras
+      pip install scikit-learn
 
 ####  `Contact`
 harshpatel.hp498@gmail.com
