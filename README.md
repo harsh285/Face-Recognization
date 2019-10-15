@@ -71,8 +71,10 @@ In This Assignment,
 
 ### `Step 1: Download The Installer of Python`
 
-    First, open your Web browser and go to https://www.python.org/downloads/release/python-380/
-    If you have a recent Windows computer, very likely it is a 64-bit machine.than,Go to Files Sections and Click on "Windows x86-64         executable installer".
+    \
+   First, open your Web browser and go to [https://www.python.org/downloads/release/python-380/]
+   
+   If you have a recent Windows computer, very likely it is a 64-bit machine.than,Go to Files Sections and Click on "Windows x86-64         executable installer".
     
 ### `Step 2: Install Python`
 
